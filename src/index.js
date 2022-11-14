@@ -12,10 +12,10 @@ const app_props = {
     return new Date().getFullYear() - this.yearOfBirth;
   },
   family: {
-    mom: 'Susu',
-    dad: 'Mody',
-    sister: 'Loli',
-    brother: 'Lolo',
+    mom: 'Xxxx',
+    dad: 'Oooo',
+    sister: 'Llll',
+    brother: 'Mmmm',
   },
   education: 'Masters',
   grade: 'Very Good',
