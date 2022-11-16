@@ -24,9 +24,11 @@ function App(props) {
           );
         })}
       </ul>
+      {[1, 2, 3].map(props.listItem)}
       <p>
         Education: {props.education} with <b>{props.grade}</b> grade
       </p>
+      <p>Initial value: {props.initialValue}</p>
     </>
   );
 }
@@ -46,6 +48,11 @@ App.propTypes = {
   education: PropTypes.oneOf(['High school', 'Bachelor', 'Masters', 'PhD'])
     .isRequired,
   grade: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  notes: PropTypes.any,
+};
+
+App.defaultProps = {
+  initialValue: 1,
 };
 
 export default App;

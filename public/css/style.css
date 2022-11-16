@@ -1,0 +1,20 @@
+.credit,
+.cash,
+.vodacash {
+}
+
+.switch div {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.switch div:hover {
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+
+.selected {
+  font-weight: bold;
+  font-style: italic;
+}
